@@ -4,7 +4,7 @@
     "slug": "rn-stage-3b",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/images/close.svg",
+    "icon": "./assets/images/android-icon-foreground.png",
     "scheme": "rnstage3b",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -15,11 +15,12 @@
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "backgroundImage": "./assets/images/android-icon-foreground.png",
+        "monochromeImage": "./assets/images/android-icon-foreground.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.drvegapunk.rnstage3b"
     },
     "web": {
       "output": "static",
@@ -45,6 +46,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b4f7e7b8-223b-4851-ae24-837e54e7e21e"
+      }
     }
   }
 }
